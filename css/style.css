@@ -1,69 +1,24 @@
-body {
-  background: #fbfcfe;
-  color: #fbfcfe;
-}
-
 div {
   border-radius: 5px;
 }
 
 /* Header */
-
 #header {
+  background-color: #F5F5DC;
   height: 60px;
   width: 97.5%;
-  background-color: #017ac8;
   position: fixed;
   z-index: 1;
-  position: fixed;
   margin-top: -20px;
   margin-bottom: 10px;
 }
 
-#header a {
-  color: white;
-}
-
-/* Left */
-
-.left {
-  height: 400px;
-  width: 10%;
-  background-color: #8b929c;
-  float: left;
-  position: relative;
-  margin-top: 50px;
-  margin-bottom: 10px;
-}
-
-/* Right */
-
-.right {
-  height: 400px;
-  width: 88%;
-  background-color: #6f2a41;
-  float: right;
-  position: relative;
-  margin-top: 50px;
-  margin-bottom: 10px;
-}
-
-/* Footer */
-
-#footer {
-  height: 50px;
-  width: 97.5%;
-  background-color: blue;
-  clear: both;
-}
-
-/* Extra code */
 #name {
   float: left;
   margin-left: 5px;
   padding-top: 5px;
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: Georgia;
 }
 
 #email {
@@ -71,39 +26,60 @@ div {
   margin-right: 5px;
   padding-top: 5px;
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: Georgia;
+  color: black;
+}
+
+/* Experiences */
+.right {
+  position: relative;
+  width: 88%;
+  height: 400px;
+  float: right;
+  background-color: gray;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 h4 {
   margin-left: 5px;
   margin-bottom: 15px;
-  font-family: Verdana, sans-serif;
+  font-family: Georgia;
 }
 
 .right p {
   margin-left: 5px;
   margin-right: 5px;
-  margin-toop: -10px;
-  font-family: Verdana;
-  font-size: 15px;
+  margin-top: -10px;
+  font-family: Georgia;
 }
 
 li {
   list-style-type: square;
-  font-family: Verdana;
 }
 
 a:hover {
   font-weight: bold;
 }
 
+/* Color bar */
+.left {
+  width: 10%;
+  height: 400px;
+  float: left;
+  background: #008080;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 /* Footer */
 #footer {
   height: 50px;
-  background:#263960;
+  background: #F5F5DC;
   clear: both;
   position: relative;
-  font-family: Verdana;
+  font-family: Georgia;
   font-size: 14px;
   text-align: center;
 }
@@ -114,6 +90,6 @@ a:hover {
 }
 
 #copyright {
-  font-family: Verdana;
-  color: black;
+  font-size: 15px;
+  font-family: Georgia;
 }
